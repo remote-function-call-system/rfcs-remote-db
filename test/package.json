@@ -1,0 +1,21 @@
+{
+  "name": "rfs-sample",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "node --preserve-symlinks-main dist/app/index.js --test",
+    "build": "tsc -b src/back"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@rfcs/adapter": "^1.0.0",
+    "@rfcs/remote-db": "file:../dist"
+  },
+  "devDependencies": {
+    "@types/express": "^4.17.2",
+    "typescript": "^3.7.2"
+  }
+}

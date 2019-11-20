@@ -1,0 +1,6 @@
+*.tsbuildinfo
+/src
+/test
+node_modules
+.github
+dist/package.json

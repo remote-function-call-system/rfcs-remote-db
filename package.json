@@ -1,0 +1,23 @@
+{
+  "name": "@rfcs/remote-db",
+  "version": "1.0.0",
+  "description": "RFCS用リモート通信モジュール",
+  "main": "dist/index.js",
+  "scripts": {
+    "test": "pkg-local dist && cd test && yarn install && yarn build && yarn test",
+    "build": "tsc -b src"
+  },
+  "publishConfig": {
+    "access": "public"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "@rfcs/core": "^1.0.0"
+  },
+  "devDependencies": {
+    "pkg-local": "^1.0.1",
+    "typescript": "^3.7.2"
+  }
+}
